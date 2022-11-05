@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
+            
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area: footer;
+        }
+        .itme{
+            background-color: lime;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div id="navbar" class="itme">this is navbar</div>
+       <div id="section" class="itme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus velit eveniet numquam quisquam natus laborum. Temporibus sapiente dicta dolorem deserunt nulla modi enim corporis rerum quaerat nesciunt, nam facere voluptates?</div>
+       <div id="aside" class="itme">this is aside Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, quisquam deleniti. Ratione voluptatibus dolor harum vero natus tenetur eum cupiditate quis, inventore aliquid. Recusandae, perferendis explicabo! Nesciunt consequatur voluptates alias.</div>
+       <div id="footer" class="itme">this is the reserved footer</div>
+        <!-- <div class="box">item-1</div>
+        <div class="box">item-2</div>
+        <div class="box">item-3</div>
+        <div class="box">item-4</div>
+        <div class="box">item-5</div>
+        <div class="box">item-6</div>
+        <div class="box">item-7</div>
+        <div class="box">item-8</div>
+        <div class="box">item-9</div>
+        <div class="box">item-10</div>
+        <div class="box">item-11</div>
+        <div class="box">item-12</div> -->
+    </div>
+</body>
+</html>
